@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+}
+
+.grid{
+    height: 1rem;
+    width: 1rem;
+    background: rgb(185, 181, 181);
+    border: 1px solid black;
+}
+
+.grid:hover{
+    background-color: rgb(255, 255, 255, 10);
+    cursor: pointer;
+}
+
+.configBtn{
+    background-color: red;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.configBtn:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
